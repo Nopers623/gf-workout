@@ -9,7 +9,7 @@ const workoutPlan = [
     type: "lower",
     color: "#FF85A1",
     accent: "#FFD6E0",
-    vibe: "The foundation of the Maki build. Go heavy, go home.",
+    vibe: "Start the week strong. Go heavy, go home. 💪",
     exercises: [
       { name: "Barbell Hip Thrust", sets: "5", reps: "8–10", note: "Primary glute builder — load this up heavy 🔥" },
       { name: "Romanian Deadlift", sets: "4", reps: "8–10", note: "Hamstring length + glute depth" },
@@ -27,11 +27,11 @@ const workoutPlan = [
     type: "upper",
     color: "#FF85A1",
     accent: "#FFD6E0",
-    vibe: "Maki's upper body is wide & strong. Build that athletic V.",
+    vibe: "Strong back, wide shoulders, defined arms. Let's go. ✨",
     exercises: [
       { name: "Lat Pulldown (Wide Grip)", sets: "4", reps: "10–12", note: "Wide lats = athletic V-shape" },
       { name: "Seated Cable Row", sets: "4", reps: "10–12", note: "Mid-back thickness" },
-      { name: "Lateral Raises", sets: "4", reps: "12–15", note: "Shoulder width — do this every upper day 🎯" },
+      { name: "Lateral Raises", sets: "4", reps: "12–15", note: "Shoulder width — key for that athletic look 🎯" },
       { name: "Face Pulls", sets: "3", reps: "15–20", note: "Rear delts + shoulder health" },
       { name: "Dumbbell Curl", sets: "3", reps: "12", note: "Arm tone & definition" },
       { name: "Overhead Tricep Extension", sets: "3", reps: "12", note: "Arm shape from behind" },
@@ -39,45 +39,27 @@ const workoutPlan = [
   },
   {
     day: "Wednesday",
-    label: "LEG GAINS 🐱",
+    label: "LEGS 🐱",
     emoji: "🦵",
     focus: "Quads · Calves · Glute Accessory",
     type: "lower",
     color: "#C77DFF",
     accent: "#EAD6FF",
-    vibe: "Don't skip it bestie. Big legs = the whole aesthetic. 🌸",
+    vibe: "We know, we know. But big legs = the whole aesthetic. 🌸",
     exercises: [
-      { name: "Leg Press (High & Wide Foot)", sets: "5", reps: "12–15", note: "More glute activation than regular stance 🍑" },
+      { name: "Leg Press (High & Wide Foot)", sets: "5", reps: "12–15", note: "High foot placement = more glute 🍑" },
       { name: "Bulgarian Split Squat", sets: "3", reps: "10 each", note: "Quad + glute unilateral — hurts so good" },
       { name: "Leg Extension", sets: "3", reps: "15", note: "Quad definition & shape" },
       { name: "Cable Hip Abduction", sets: "4", reps: "15 each", note: "Hip width + glute medius 🎀" },
       { name: "Standing Calf Raise", sets: "4", reps: "15–20", note: "Calf shape — slow & controlled" },
-      { name: "Donkey Kick", sets: "3", reps: "20 each", note: "Easy finisher — glute medius & teres" },
+      { name: "Donkey Kick", sets: "3", reps: "20 each", note: "Easy finisher — outer glute" },
     ],
   },
   {
-    day: "Friday",
-    label: "FULL GLUTE DAY",
-    emoji: "🍑",
-    focus: "Glutes · Hamstrings · Core",
-    type: "lower",
-    color: "#FF85A1",
-    accent: "#FFD6E0",
-    vibe: "Two glute days a week = fastest results. Trust the process 💕",
-    exercises: [
-      { name: "Hip Thrust (Single Leg)", sets: "4", reps: "10–12 each", note: "Unilateral glute isolation" },
-      { name: "Glute Bridge (Heavy)", sets: "4", reps: "15", note: "Floor-based hip thrust variation" },
-      { name: "Smith Machine RDL", sets: "4", reps: "10", note: "Controlled hamstring stretch" },
-      { name: "Reverse Hyper / Back Extension", sets: "3", reps: "15", note: "Lower glute + lower back health" },
-      { name: "Abductor Machine", sets: "4", reps: "20", note: "Hip width + outer glute 🎀" },
-      { name: "Cable Pull-Through", sets: "3", reps: "15", note: "Hip hinge pattern — glute & ham finisher" },
-    ],
-  },
-  {
-    day: "Saturday",
-    label: "SCULPT DAY",
+    day: "Thursday",
+    label: "UPPER BODY",
     emoji: "✨",
-    focus: "Shoulders · Arms · Light Lower",
+    focus: "Shoulders · Arms · Core",
     type: "upper",
     color: "#FFB3C6",
     accent: "#FFE8EE",
@@ -87,28 +69,45 @@ const workoutPlan = [
       { name: "Lateral Raise Superset w/ Front Raise", sets: "3", reps: "12 each", note: "Full delt sweep 🌸" },
       { name: "Preacher Curl", sets: "3", reps: "10–12", note: "Bicep peak" },
       { name: "Skull Crushers", sets: "3", reps: "12", note: "Tricep mass" },
-      { name: "Hip Thrust (Light / Pump)", sets: "3", reps: "20", note: "Keep glutes activated — light & fun 🍑" },
+      { name: "Cable Hip Abduction", sets: "3", reps: "15 each", note: "Hip width + glute medius" },
       { name: "Plank Hold", sets: "3", reps: "45 sec", note: "Core strength for that tight waist" },
+    ],
+  },
+  {
+    day: "Friday",
+    label: "GLUTES & LEGS",
+    emoji: "🍑",
+    focus: "Glutes · Hamstrings · Core",
+    type: "lower",
+    color: "#FF85A1",
+    accent: "#FFD6E0",
+    vibe: "Finish the week strong. Two glute days = fastest results. 💕",
+    exercises: [
+      { name: "Hip Thrust (Single Leg)", sets: "4", reps: "10–12 each", note: "Unilateral glute isolation" },
+      { name: "Glute Bridge (Heavy)", sets: "4", reps: "15", note: "Floor-based hip thrust variation" },
+      { name: "Smith Machine RDL", sets: "4", reps: "10", note: "Controlled hamstring stretch" },
+      { name: "Reverse Hyper / Back Extension", sets: "3", reps: "15", note: "Lower glute + lower back health" },
+      { name: "Abductor Machine", sets: "4", reps: "20", note: "Hip width + outer glute 🎀" },
+      { name: "Cable Pull-Through", sets: "3", reps: "15", note: "Hip hinge pattern — glute & ham finisher" },
     ],
   },
 ];
 
 const tips = [
   { icon: "🍗", text: "Eat 130–140g protein/day. Chicken, Greek yogurt, eggs & cottage cheese are your best friends." },
-  { icon: "📈", text: "Progressive overload every week — add a little weight or a rep. That's how the legs grow." },
+  { icon: "📈", text: "Progressive overload every week — add a little weight or a rep. That's how you grow." },
   { icon: "😴", text: "Sleep 7–9 hrs. Muscles are literally built while you sleep. Non-negotiable 💕" },
   { icon: "🍑", text: "Two glute sessions per week is intentional — it's the fastest way to actually grow them." },
-  { icon: "🐱", text: "Leg day is Wednesday & shows up again Friday. We know. You'll thank us later." },
-  { icon: "🌸", text: "Thu & Sun are full rest or light walks. Stretch, foam roll, recover cute." },
+  { icon: "🌸", text: "Sat & Sun are full rest or light walks. Stretch, foam roll, recover cute." },
 ];
 
 const schedule = [
   { d: "Mon", l: "Glutes", c: "#FF85A1", e: "🍑" },
   { d: "Tue", l: "Upper", c: "#FF85A1", e: "💪" },
   { d: "Wed", l: "Legs", c: "#C77DFF", e: "🦵" },
-  { d: "Thu", l: "Rest", c: "#e8c4d4", e: "🛁" },
+  { d: "Thu", l: "Upper", c: "#FFB3C6", e: "✨" },
   { d: "Fri", l: "Glutes", c: "#FF85A1", e: "🍑" },
-  { d: "Sat", l: "Sculpt", c: "#FFB3C6", e: "✨" },
+  { d: "Sat", l: "Rest", c: "#e8c4d4", e: "🛁" },
   { d: "Sun", l: "Rest", c: "#e8c4d4", e: "🌸" },
 ];
 
@@ -199,12 +198,12 @@ export default function WorkoutPlan() {
           <div style={{ maxWidth: 820, margin: "0 auto", position: "relative" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
               <span className="bow">🎀</span>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, letterSpacing: "0.2em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase", fontWeight: 600 }}>5-Day Program · Maki Build Phase</p>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, letterSpacing: "0.2em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase", fontWeight: 600 }}>5-Day Program · Build Phase</p>
             </div>
             <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(30px, 5vw, 52px)", fontWeight: 900, lineHeight: 1.1, color: "white", marginBottom: 8, textShadow: "0 2px 12px rgba(180,60,100,0.25)" }}>Glutes, Strength<br />& Soft Life ✨</h1>
-            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.85)", fontWeight: 300, fontStyle: "italic", marginBottom: 22 }}>Built for athletic legs · big glutes · feminine muscle · Maki energy 🍑</p>
+            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.85)", fontWeight: 300, fontStyle: "italic", marginBottom: 22 }}>Built for big glutes · athletic legs · feminine muscle · powerful energy 🍑</p>
             <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-              {[["🎂","Age","20"],["📏","Height","5′ 3″"],["⚖️","Weight","160 lbs"],["🎯","Goal","Maki Physique"],["🍑","Priority","Glutes + Legs"]].map(([e,k,v]) => (
+              {[["🎂","Age","20"],["📏","Height","5′ 3″"],["⚖️","Weight","160 lbs"],["🎯","Goal","Athletic & Curvy"],["🍑","Priority","Glutes + Strength"]].map(([e,k,v]) => (
                 <div key={k} className="stat-pill" style={{ background: "rgba(255,255,255,0.2)", border: "1.5px solid rgba(255,255,255,0.35)" }}>
                   <span style={{ fontSize: 13 }}>{e}</span>
                   <span style={{ fontFamily: "'DM Sans'", fontSize: 9, letterSpacing: "0.12em", color: "rgba(255,255,255,0.7)", textTransform: "uppercase" }}>{k}</span>
@@ -260,7 +259,6 @@ export default function WorkoutPlan() {
                   </div>
                 </div>
 
-                {/* Column headers */}
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 60px 80px 80px", padding: "10px 28px", borderBottom: "1px solid #ffeef4" }}>
                   {["Exercise", "Sets", "Reps", "Log"].map(h => (
                     <span key={h} style={{ fontFamily: "'DM Sans'", fontSize: 10, color: "#d0809a", textTransform: "uppercase", letterSpacing: "0.14em", fontWeight: 600 }}>{h}</span>
@@ -356,7 +354,7 @@ export default function WorkoutPlan() {
           )}
 
           <div style={{ textAlign: "center", marginTop: 40, fontFamily: "'DM Sans'", fontSize: 12, color: "#d4a0b4" }}>
-            made with 🎀 · maki build phase · you got this girl
+            made with 🎀 · build phase · you got this girl
           </div>
         </div>
       </div>
